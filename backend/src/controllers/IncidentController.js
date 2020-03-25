@@ -11,6 +11,8 @@ module.exports = {
       .offset((page - 1) * 5)
       .select('*');
 
+    res.header('X-Total-Count', count['count(*)'])
+
     return res.json(incidents);
   },
 
