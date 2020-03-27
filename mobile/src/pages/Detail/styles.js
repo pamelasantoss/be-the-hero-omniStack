@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import Constants from 'expo-contants';
+import Constants from 'expo-constants';
 
 export default StyleSheet.create({
   container: {
@@ -65,7 +65,7 @@ export default StyleSheet.create({
     backgroundColor: '#e02041',
     borderRadius: 8,
     height: 50,
-    width: 48%,
+    width: '48%',
     justifyContent: 'center',
     alignItems: 'center'
   },
